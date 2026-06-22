@@ -8,8 +8,8 @@ This is my solution to the Product Preview Card Component challenge on Frontend 
 
 Users should be able to:
 
-* View the optimal layout depending on their device's screen size.
-* See hover and focus states for interactive elements.
+- View the optimal layout depending on their device's screen size.
+- See hover and focus states for interactive elements.
 
 ### Screenshot
 
@@ -17,30 +17,30 @@ Users should be able to:
 
 ### Links
 
-* Solution URL: 
-* Live Site URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-product-preview-card-component-using-css-ea-vSILseK
+- Live Site URL: https://fm-product-preview-card-tarkeshwar.netlify.app/
 
 ## My Process
 
 ### Built With
 
-* Semantic HTML5
-* CSS3
-* CSS Grid
-* Flexbox
-* Responsive Design
-* Google Fonts (Montserrat & Fraunces)
-* Remix Icons
+- Semantic HTML5
+- CSS3
+- CSS Grid
+- Flexbox
+- Responsive Design
+- Google Fonts (Montserrat & Fraunces)
+- Remix Icons
 
 ### What I Learned
 
 While building this project, I improved my understanding of:
 
-* Creating responsive layouts using CSS Grid.
-* Using the `<picture>` element to serve different images for desktop and mobile screens.
-* Structuring HTML with semantic elements.
-* Managing spacing and typography to closely match a design mockup.
-* Creating accessible interactive elements with hover and focus states.
+- Creating responsive layouts using CSS Grid.
+- Using the `<picture>` element to serve different images for desktop and mobile screens.
+- Structuring HTML with semantic elements.
+- Managing spacing and typography to closely match a design mockup.
+- Creating accessible interactive elements with hover and focus states.
 
 Example of responsive image handling:
 
@@ -48,11 +48,10 @@ Example of responsive image handling:
 <picture>
   <source
     srcset="./images/image-product-mobile.jpg"
-    media="(max-width: 768px)">
+    media="(max-width: 768px)"
+  />
 
-  <img
-    src="./images/image-product-desktop.jpg"
-    alt="">
+  <img src="./images/image-product-desktop.jpg" alt="" />
 </picture>
 ```
 
@@ -60,17 +59,17 @@ Example of responsive image handling:
 
 In future projects, I would like to focus on:
 
-* Improving accessibility practices.
-* Writing cleaner and more maintainable CSS.
-* Becoming more comfortable with advanced CSS Grid layouts.
-* Building similar projects using React components.
+- Improving accessibility practices.
+- Writing cleaner and more maintainable CSS.
+- Becoming more comfortable with advanced CSS Grid layouts.
+- Building similar projects using React components.
 
 ### Useful Resources
 
-* Frontend Mentor challenge brief
-* MDN Web Docs
-* CSS Grid documentation
-* Google Fonts documentation
+- Frontend Mentor challenge brief
+- MDN Web Docs
+- CSS Grid documentation
+- Google Fonts documentation
 
 ### AI Collaboration
 
@@ -78,19 +77,19 @@ I used ChatGPT as a learning assistant during this project.
 
 The AI was mainly used for:
 
-* Debugging layout issues.
-* Understanding CSS Grid behavior.
-* Learning when to use Flexbox versus Grid.
-* Improving semantic HTML and accessibility.
-* Reviewing code and suggesting improvements.
+- Debugging layout issues.
+- Understanding CSS Grid behavior.
+- Learning when to use Flexbox versus Grid.
+- Improving semantic HTML and accessibility.
+- Reviewing code and suggesting improvements.
 
 All implementation, testing, and final decisions were completed by me after understanding the suggestions provided.
 
 ## Author
 
-* Name: Tarkeshwar Uranw
-* GitHub: https://github.com/tarkeshwaruranw
-* Frontend Mentor: https://www.frontendmentor.io/profile/tarkeshwaruranw
+- Name: Tarkeshwar Uranw
+- GitHub: https://github.com/tarkeshwaruranw
+- Frontend Mentor: https://www.frontendmentor.io/profile/tarkeshwaruranw
 
 ## Acknowledgments
 
